@@ -1,0 +1,140 @@
+body{
+    font-family: "Merriweather", Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("../img/20250818_140052.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+}
+.animttl{
+    animation: bounceAndStretch 2s infinite;
+}
+
+@keyframes bounceAndStretch {
+      0%, 100% {
+        transform: translateY(0);
+        letter-spacing: 0;
+      }
+      25% {
+        transform: translateY(-7px);
+        letter-spacing: 4px;
+        color: white;
+      }
+      50% {
+        transform: translateY(0);
+        letter-spacing: 4px;
+        color: yellow;
+      }
+      75% {
+        transform: translateY(7px);
+        letter-spacing: 2px;
+        color: white;
+      }
+}
+
+.scrltext{
+    background-color: blue;
+    color: yellow;
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dotted white;
+    margin-bottom: 4px;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+.ctnr{
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 650px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px dotted white;
+    color: yellow;
+    background-color: blue;
+    margin-bottom: 4px;
+}
+.storyctnr{
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 4px;
+    max-width: 100%;
+    width: 650px;
+    box-sizing: border-box;
+    border: 2px dotted white;
+    color: yellow;
+    background-color: blue;
+}
+.storyctnr article{
+    text-align: justify;
+}
+#pndh{
+    margin-top: 12px;
+}
+h2{
+    letter-spacing: 7px;
+    padding: 7px;
+    text-align: center;
+    border: 2px dashed white;
+    text-shadow: -1px 5px 4px rgb(255, 255, 255);
+}
+tr, td{
+    text-align: left;
+    border: 2px dashed yellow;
+}
+a{
+    color: yellow;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    font-size: 15px;
+}
+.glr{
+    display: inline-block;
+    border: 2px dashed white;
+    margin: 5px;
+    padding: 3px;
+    width: 120px;
+}
+.glrdesc{
+    padding: 10px;
+    text-align: center;
+}
+.glr:hover{
+    border: 3px dashed white;
+}
+.glr:active{
+    border: 3px dashed yellow;
+}
+.glr img{
+    width: 100%;
+    height: auto;
+}
+#silviaphglr{
+    padding: 10px;
+}
+#silviaphglr p{
+    text-align: left;
+}
+#silviavidglr{
+    padding: 10px;
+}
+video{
+    width: 145px;
+    display: inline-block;
+}
+footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: blue;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    box-sizing: border-box;
+}
